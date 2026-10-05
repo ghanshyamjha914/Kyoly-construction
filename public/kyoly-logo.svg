@@ -1,0 +1,123 @@
+<svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kyoly Construction Skyline Logo (Official Vector) -->
+  <defs>
+    <!-- Vibrant Kyoly Orange Gradients -->
+    <linearGradient id="skylineOrange1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+    <linearGradient id="skylineOrange2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C1A" />
+      <stop offset="100%" stop-color="#E64D00" />
+    </linearGradient>
+    <linearGradient id="skylineOrange3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA033" />
+      <stop offset="100%" stop-color="#FF6600" />
+    </linearGradient>
+  </defs>
+
+  <!-- SKYLINE BUILDINGS MARK -->
+  <g id="skyline-mark">
+    <!-- Left Orange Building -->
+    <polygon points="190,140 235,115 235,210 190,210" fill="url(#skylineOrange1)" />
+    <!-- Left Building 3D Top Facet -->
+    <polygon points="190,140 235,115 255,128 210,153" fill="url(#skylineOrange3)" />
+    <polygon points="235,115 255,128 255,200 235,210" fill="#CC4400" />
+
+    <!-- Center Tallest Orange Tower -->
+    <polygon points="260,95 305,75 305,170 260,170" fill="url(#skylineOrange1)" />
+    <!-- Center Tower 3D Side Facet -->
+    <polygon points="305,75 325,88 325,160 305,170" fill="#CC4400" />
+    <!-- Windows on Center Tower -->
+    <rect x="312" y="105" width="4" height="15" fill="#FFE5CC" />
+    <rect x="312" y="128" width="4" height="15" fill="#FFE5CC" />
+
+    <!-- Right Charcoal High-Rise Tower with Windows Grid -->
+    <polygon points="348,105 385,125 385,205 348,190" fill="#2B333E" />
+    <polygon points="385,125 398,132 398,205 385,205" fill="#1E242B" />
+    <!-- Window Grid on Charcoal Building -->
+    <g fill="#FFFFFF" opacity="0.9">
+      <rect x="358" y="125" width="5" height="7" />
+      <rect x="368" y="130" width="5" height="7" />
+      <rect x="358" y="138" width="5" height="7" />
+      <rect x="368" y="143" width="5" height="7" />
+      <rect x="358" y="151" width="5" height="7" />
+      <rect x="368" y="156" width="5" height="7" />
+      <rect x="358" y="164" width="5" height="7" />
+      <rect x="368" y="169" width="5" height="7" />
+    </g>
+
+    <!-- Foreground Residential Roof & House Gable -->
+    <polygon points="325,135 255,185 270,185 325,146 380,185 395,185" fill="#2B333E" />
+    <!-- House Front Wall Triangle -->
+    <polygon points="325,148 275,185 375,185" fill="#2B333E" />
+    <!-- 4-Pane Window on House Gable -->
+    <g fill="#FFFFFF">
+      <rect x="315" y="162" width="8" height="8" rx="1" />
+      <rect x="327" y="162" width="8" height="8" rx="1" />
+      <rect x="315" y="173" width="8" height="8" rx="1" />
+      <rect x="327" y="173" width="8" height="8" rx="1" />
+    </g>
+
+    <!-- Curved Orange Swoosh Underline -->
+    <path
+      d="M140,210 Q250,170 340,202 Q390,220 440,205 C400,216 350,212 310,200 Q230,175 140,210 Z"
+      fill="url(#skylineOrange1)"
+    />
+  </g>
+
+  <!-- TYPOGRAPHY: KYOLY -->
+  <g id="typography">
+    <!-- K - Left Vertical and Upper Arm in Charcoal, Lower Leg in Orange -->
+    <path d="M80,240 H108 V285 H132 L158,240 H192 L148,295 L196,350 H160 L126,308 L108,328 V350 H80 Z" fill="#2B333E" />
+    <!-- The distinct vibrant orange lower leg of the 'K' -->
+    <path d="M124,306 L160,350 H196 L146,293 Z" fill="#FF6B00" />
+
+    <!-- Y -->
+    <path d="M192,240 H220 L246,290 L272,240 H300 L260,305 V350 H232 V305 Z" fill="#2B333E" />
+
+    <!-- O -->
+    <path
+      d="M365,237 C395,237 415,260 415,295 C415,330 395,353 365,353 C335,353 315,330 315,295 C315,260 335,237 365,237 Z
+         M365,265 C350,265 342,277 342,295 C342,313 350,325 365,325 C380,325 388,313 388,295 C388,277 380,265 365,265 Z"
+      fill="#2B333E"
+      fill-rule="evenodd"
+    />
+
+    <!-- L -->
+    <path d="M430,240 H458 V324 H505 V350 H430 Z" fill="#2B333E" />
+
+    <!-- Y -->
+    <path d="M505,240 H533 L559,290 L585,240 H613 L573,305 V350 H545 V305 Z" fill="#2B333E" transform="translate(-105, 0)" />
+
+    <!-- SUBTITLE: CONSTRUCTION PVT. LTD. -->
+    <text
+      x="300"
+      y="380"
+      text-anchor="middle"
+      font-family="'Arial Black', 'Impact', sans-serif"
+      font-weight="900"
+      font-size="28"
+      letter-spacing="5"
+      fill="#2B333E"
+    >
+      CONSTRUCTION PVT. LTD.
+    </text>
+
+    <!-- TAGLINE WITH ORANGE ACCENT BARS -->
+    <line x1="70" y1="398" x2="150" y2="398" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" />
+    <text
+      x="300"
+      y="402"
+      text-anchor="middle"
+      font-family="'Arial', 'Helvetica', sans-serif"
+      font-weight="bold"
+      font-size="14"
+      letter-spacing="1"
+      fill="#2B333E"
+    >
+      We Build Infrastructure, We Build Trust
+    </text>
+    <line x1="450" y1="398" x2="530" y2="398" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

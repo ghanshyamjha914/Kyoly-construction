@@ -1,0 +1,94 @@
+<svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kyoly Construction Skyline Logo (Gold Edition) -->
+  <defs>
+    <linearGradient id="skylineGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#D6A548" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+
+  <g id="skyline-mark">
+    <!-- Left Building -->
+    <polygon points="190,140 235,115 235,210 190,210" fill="url(#skylineGold)" />
+    <polygon points="190,140 235,115 255,128 210,153" fill="#FFE57F" />
+    <polygon points="235,115 255,128 255,200 235,210" fill="#996515" />
+
+    <!-- Center Tallest Tower -->
+    <polygon points="260,95 305,75 305,170 260,170" fill="url(#skylineGold)" />
+    <polygon points="305,75 325,88 325,160 305,170" fill="#996515" />
+    <rect x="312" y="105" width="4" height="15" fill="#FFFFFF" />
+    <rect x="312" y="128" width="4" height="15" fill="#FFFFFF" />
+
+    <!-- Right Tower -->
+    <polygon points="348,105 385,125 385,205 348,190" fill="#FFFFFF" opacity="0.9" />
+    <polygon points="385,125 398,132 398,205 385,205" fill="#E0E0E0" />
+    <g fill="#0B0F19">
+      <rect x="358" y="125" width="5" height="7" />
+      <rect x="368" y="130" width="5" height="7" />
+      <rect x="358" y="138" width="5" height="7" />
+      <rect x="368" y="143" width="5" height="7" />
+      <rect x="358" y="151" width="5" height="7" />
+      <rect x="368" y="156" width="5" height="7" />
+    </g>
+
+    <!-- House Gable -->
+    <polygon points="325,135 255,185 270,185 325,146 380,185 395,185" fill="#FFFFFF" />
+    <polygon points="325,148 275,185 375,185" fill="#FFFFFF" />
+    <g fill="#0B0F19">
+      <rect x="315" y="162" width="8" height="8" rx="1" />
+      <rect x="327" y="162" width="8" height="8" rx="1" />
+      <rect x="315" y="173" width="8" height="8" rx="1" />
+      <rect x="327" y="173" width="8" height="8" rx="1" />
+    </g>
+
+    <!-- Curved Gold Swoosh -->
+    <path
+      d="M140,210 Q250,170 340,202 Q390,220 440,205 C400,216 350,212 310,200 Q230,175 140,210 Z"
+      fill="url(#skylineGold)"
+    />
+  </g>
+
+  <!-- Typography: KYOLY -->
+  <g id="typography">
+    <path d="M80,240 H108 V285 H132 L158,240 H192 L148,295 L196,350 H160 L126,308 L108,328 V350 H80 Z" fill="#FFFFFF" />
+    <path d="M124,306 L160,350 H196 L146,293 Z" fill="url(#skylineGold)" />
+    <path d="M192,240 H220 L246,290 L272,240 H300 L260,305 V350 H232 V305 Z" fill="#FFFFFF" />
+    <path
+      d="M365,237 C395,237 415,260 415,295 C415,330 395,353 365,353 C335,353 315,330 315,295 C315,260 335,237 365,237 Z
+         M365,265 C350,265 342,277 342,295 C342,313 350,325 365,325 C380,325 388,313 388,295 C388,277 380,265 365,265 Z"
+      fill="#FFFFFF"
+      fill-rule="evenodd"
+    />
+    <path d="M430,240 H458 V324 H505 V350 H430 Z" fill="#FFFFFF" />
+    <path d="M505,240 H533 L559,290 L585,240 H613 L573,305 V350 H545 V305 Z" fill="#FFFFFF" transform="translate(-105, 0)" />
+
+    <text
+      x="300"
+      y="380"
+      text-anchor="middle"
+      font-family="'Arial Black', sans-serif"
+      font-weight="900"
+      font-size="28"
+      letter-spacing="5"
+      fill="#FFFFFF"
+    >
+      CONSTRUCTION PVT. LTD.
+    </text>
+
+    <line x1="70" y1="398" x2="150" y2="398" stroke="#D6A548" stroke-width="3" stroke-linecap="round" />
+    <text
+      x="300"
+      y="402"
+      text-anchor="middle"
+      font-family="sans-serif"
+      font-weight="bold"
+      font-size="14"
+      letter-spacing="1"
+      fill="#D6A548"
+    >
+      We Build Infrastructure, We Build Trust
+    </text>
+    <line x1="450" y1="398" x2="530" y2="398" stroke="#D6A548" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>
